@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: a4f0a1527d3e5c640a59ab699c44f654
+timeCreated: 1510421998
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Needleteeth Regular
+  fontNames:
+  - Needleteeth Regular
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

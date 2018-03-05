@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: bbaafd02794903d49955dbc8d5356346
+timeCreated: 1519928167
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: The Redlight Line Free
+  fontNames:
+  - The Redlight Line Free
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 9d0ccbaeb3cb9ae41ba9adedbffbf012, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

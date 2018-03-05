@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: d817725b08a0cd74cac26776edf55a95
+timeCreated: 1510421998
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Needleteeth Creepy
+  fontNames:
+  - Needleteeth Creepy
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
