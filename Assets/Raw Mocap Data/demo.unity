@@ -453,7 +453,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 651dd1a369c0de04ab3b58ae2d4b489c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Vel: 7
+  m_Vel: 8
   m_VelRot: 80
   m_VelSalto: 200
   grounded: 0
