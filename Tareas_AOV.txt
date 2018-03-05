@@ -1,0 +1,28 @@
+TAREAS:
+
+UNITY/PROGRAMACIÓN:
+
+Realizar intro (camara orbitando alrededor del castillo, podría ser una noche de lluvia asi usamos particulas)
+Crear fuego para antorchas, interior del castillo y puerta
+Terminar Castillo y terreno para intro (En proceso, Adrián)
+Añadir nubes, con algun asset o sky bastará
+Movimiento del personaje (con la camara en tercera persona y/o primera, cambio con un botón)
+Hacer menu de entrada y de Pausa
+Concretar parkour (distancia entre plataformas etc...)
+Crear dialogos (para indicar que debemos hacer y porque)
+Cambio de camara para parkour
+Movimiento para parkour 2,5D
+Segundo minijuego(?)
+
+
+BLENDER:
+
+Modelar Trono y puertas del castillo
+Modelar Protagonista
+Modelar Antagonista, sera parecido a la estatua (reutilización)
+Modelar princesa (cabra)
+Modelar estatua del malo (para el patio)
+Modelar Bomba (Que llevará el malo en uno de los minijuegos)
+Modelar soporte de antorchas
+Modelar Escaleras
+
