@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{05C89E67-D5BF-102A-A0BE-1CDEEC8A7068}</ProjectGuid>
+    <ProjectGuid>{38735655-77AF-A95C-5A06-D850A74C049D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -50,17 +50,20 @@
      <Compile Include="Assets\Lava_Flowing_Shader\Scripts\ScrollingUVs_Layers.cs" />
      <Compile Include="Assets\Raw Mocap Data\ControlMovimiento.cs" />
      <Compile Include="Assets\Raw Mocap Data\TestOfisial\Controller.cs" />
-     <Compile Include="Assets\Raw Mocap Data\TestOfisial\MovimientoNaranja.cs" />
      <Compile Include="Assets\Raw Mocap Data\TestOfisial\Salto.cs" />
-     <Compile Include="Assets\Raw Mocap Data\TestOfisial\SmoothMouseLook.cs" />
      <Compile Include="Assets\Scripts\ControlMenu.cs" />
      <Compile Include="Assets\Scripts\HoldCharacter.cs" />
      <Compile Include="Assets\Scripts\Mov2.cs" />
      <Compile Include="Assets\Scripts\MovPlataforma.cs" />
+     <Compile Include="Assets\Scripts\MovimientoNaranja.cs" />
      <Compile Include="Assets\Scripts\MovingPlatforms.cs" />
+     <Compile Include="Assets\Scripts\SmoothMouseLook.cs" />
      <Compile Include="Assets\Scripts\TextoParpadeante.cs" />
      <Compile Include="Assets\Scripts\camaraMenu.cs" />
+     <Compile Include="Assets\Scripts\control.cs" />
      <Compile Include="Assets\Scripts\gira.cs" />
+     <Compile Include="Assets\Scripts\interactuaObjeto.cs" />
+     <Compile Include="Assets\Scripts\menusNivel2.cs" />
      <Compile Include="Assets\Scripts\mueveBasico.cs" />
      <Compile Include="Assets\Scripts\sigueCurva.cs" />
      <Compile Include="Assets\Scripts\steeringBasico.cs" />
@@ -111,7 +114,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{8F1DF38A-51AA-BCB8-3DB1-BA5D6F59A974}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{177AD050-360C-6FE6-6E79-795CF9F5FE0A}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

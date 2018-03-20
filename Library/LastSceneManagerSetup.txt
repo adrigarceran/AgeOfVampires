@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Raw Mocap Data/demo.unity
+- path: Assets/Scenes/Biblio.unity
   isLoaded: 1
   isActive: 1

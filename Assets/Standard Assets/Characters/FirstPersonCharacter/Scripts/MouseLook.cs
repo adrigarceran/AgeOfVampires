@@ -54,6 +54,14 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
             UpdateCursorLock();
         }
+		/*public void LookRotation(Transform character, Transform camera)
+		{
+			float yRot = CrossPlatformInputManager.GetAxis("Mouse X") * XSensitivity;
+			float xRot = CrossPlatformInputManager.GetAxis("Mouse Y") * YSensitivity;
+			character.transform.Rotate (yRot*Vector3.up,Space.World);
+			camera.transform.Rotate (-xRot*Vector3.right,Space.Self);
+			UpdateCursorLock();
+		}*/
 
         public void SetCursorLock(bool value)
         {
