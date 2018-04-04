@@ -67,7 +67,6 @@
      <Compile Include="Assets\Scripts\mueveBasico.cs" />
      <Compile Include="Assets\Scripts\sigueCurva.cs" />
      <Compile Include="Assets\Scripts\steeringBasico.cs" />
-     <Compile Include="Assets\Stellar Sky\Demo\CameraController.cs" />
      <Compile Include="Assets\Textures\Lava_Flowing_Shader\Scripts\ScrollingUVs_Layers.cs" />
      <None Include="Assets\Lava_Flowing_Shader\Shaders\Unlit_Lava_Distort.shader" />
      <None Include="Assets\Lava_Flowing_Shader\Shaders\Unlit_Lava_Distort_Transparent.shader" />

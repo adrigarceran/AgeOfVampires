@@ -28,8 +28,10 @@ public class MovimientoNaranja : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		
+		//Esto estaba preaparado para que el personaje pudiera saltar, pero finalmente hemos decicido eliminarlo
+		//ya que no aportaba mucho a la jugabilidad pero nos parecia interesante dejarlo aunque sea comentado
 
-		RaycastHit m_Golpe;
+		/*RaycastHit m_Golpe;
 		Vector3 physicsCentre = this.transform.position + this.GetComponent<CapsuleCollider> ().center;
 		Debug.DrawRay (physicsCentre, Vector3.down * 0.9f, Color.green, 1);
 		if(Physics.Raycast(physicsCentre,Vector3.down, out m_Golpe,1f))		{
@@ -39,7 +41,8 @@ public class MovimientoNaranja : MonoBehaviour {
 		} else 
 		{
 			grounded = false;
-		}
+		}*/
+
 		if (Input.GetKey (KeyCode.W)) {
 			walkForward = true;
 			anim.SetBool ("Walk", true);
@@ -85,6 +88,8 @@ public class MovimientoNaranja : MonoBehaviour {
 			walkRight = false;
 		}
 
+		//Esta parte del codigo hacia la funcion de los distintos saltos
+		/*
 		if (Input.GetKeyDown (KeyCode.Space) && grounded && !walkLeft && !walkBack && !walkRight) {
 			anim.SetBool ("Jump 0", true);
 			this.GetComponent<Rigidbody> ().AddForce (Vector3.up * m_VelSalto);
@@ -108,7 +113,7 @@ public class MovimientoNaranja : MonoBehaviour {
 			transform.Translate (Vector3.forward * (vel*2) * Time.deltaTime);
 		} else {
 			anim.SetBool ("Jump 1", false);
-		}
+		}*/
 
 
 		
