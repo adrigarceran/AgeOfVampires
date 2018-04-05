@@ -22,21 +22,25 @@ public class menusNivel2 : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKeyDown (KeyCode.Escape)) {
-			cambiaPausa ();}
+		//if (Input.GetKeyDown (KeyCode.Escape)) {
+		//	cambiaPausa ();}
 		if (Input.GetKeyDown (KeyCode.O)) {
 			cambiaOpciones ();}
 		if (Input.GetKeyDown (KeyCode.T)) {
 			cambiaMensaje ("Hola");}
 	}
 
-	public void cambiaPausa(){
+	/*public void cambiaPausa(){
 		if (!mensajeActivado && !opcionesActivado) {
 			pausaActivado = !pausaActivado;
 			pausa.SetActive (pausaActivado);
 			ponDt ();
+			if (Time.timeScale == 1)
+				Time.timeScale = 0;
+			else
+				Time.timeScale = 1;
 		}
-	}
+	}*/
 
 	public void cambiaOpciones(){
 		if (!mensajeActivado && !pausaActivado) {

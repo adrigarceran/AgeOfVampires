@@ -19,25 +19,28 @@ public class interactuaObjeto : MonoBehaviour {
 	}
 
 	void OnMouseDown(){
-		controlMenu.GetComponent<menusNivel2> ().cambiaMensaje (descripcion);
-		Debug.LogWarning ("name: " + name);
-		if (name == "Libro") {
-			Debug.LogWarning ("HOLIS");
-			control.libro = true;
-			hazEfecto ();
-		}
-		if (name == "Cruz") {
-			control.cruz = true;
-			hazEfecto ();
-		}
-		if (name == "Gema") {
-			control.gema = true;
-			hazEfecto ();
-		}
+		if (control.dt == 1) {
+			control.objetos--;
+			controlMenu.GetComponent<menusNivel2> ().cambiaMensaje (mensajeObjetos ());
+			Debug.LogWarning ("name: " + name);
+			if (name == "Libro") {
+				Debug.LogWarning ("HOLIS");
+				control.libro = true;
+				hazEfecto ();
+			}
+			if (name == "Cruz") {
+				control.cruz = true;
+				hazEfecto ();
+			}
+			if (name == "Gema") {
+				control.gema = true;
+				hazEfecto ();
+			}
 
-		controlMenu.GetComponent<menusNivel2> ().actualizaInventario();
-		if (destructible) {
-			Destroy (gameObject);
+			controlMenu.GetComponent<menusNivel2> ().actualizaInventario ();
+			if (destructible) {
+				Destroy (gameObject);
+			}
 		}
 	}
 
@@ -48,5 +51,14 @@ public class interactuaObjeto : MonoBehaviour {
 		}
 		GameObject miEfecto = Instantiate (efecto);
 		miEfecto.transform.position = transform.position;
+	}
+
+	string mensajeObjetos(){
+		if (control.objetos == 1)
+			return "Queda 1 objeto";
+		if (control.objetos == 0)
+			return "¡Ya tienes todos los objetos!";
+			
+		return "Quedan " + control.objetos + " objetos";
 	}
 }
