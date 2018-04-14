@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/JuegoParte1.unity
+- path: Assets/Scenes/Biblio.unity
   isLoaded: 1
   isActive: 1

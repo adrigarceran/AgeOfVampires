@@ -19,6 +19,7 @@ public class interactuaObjeto : MonoBehaviour {
 	}
 
 	void OnMouseDown(){
+		Debug.LogWarning ("MOUSE DOWN");
 		if (control.dt == 1) {
 			control.objetos--;
 			controlMenu.GetComponent<menusNivel2> ().cambiaMensaje (mensajeObjetos ());
