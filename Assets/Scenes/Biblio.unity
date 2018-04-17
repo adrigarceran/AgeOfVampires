@@ -126,7 +126,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &1002932
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -185,7 +185,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1002931}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.93, y: 3.936, z: -8.212}
+  m_LocalPosition: {x: 6.107, y: 3.92, z: -7.54}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
@@ -203,8 +203,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controlMenu: {fileID: 1750392156}
-  sonido: {fileID: 1160115167872826, guid: 7c5a8743d22531f4da03170872f02e3c, type: 2}
-  efecto: {fileID: 1561807701325418, guid: ccac7563ef5851848b430e4fecd96b5f, type: 2}
+  sonido: {fileID: 1207469161}
+  efecto: {fileID: 1736959177}
   descripcion: Cruz
   destructible: 1
 --- !u!1 &8920598
@@ -2364,11 +2364,11 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 356436546}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.4946146, y: 3.8756256, z: 2.1510577}
-  m_Center: {x: -0.52476454, y: -0.073843, z: 0.33929086}
+  m_Size: {x: 2.4946146, y: 1.6852381, z: 2.1510577}
+  m_Center: {x: -0.52476454, y: -1.1690367, z: 0.33929086}
 --- !u!1 &359714228
 GameObject:
   m_ObjectHideFlags: 0
@@ -4123,7 +4123,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &627055307
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4182,7 +4182,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 627055306}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.52, y: 1.85, z: 5.01}
+  m_LocalPosition: {x: -5.466, y: 1.85, z: -3.02}
   m_LocalScale: {x: 0.5, y: 0.39171275, z: 0.5}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5031,11 +5031,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 930a9836c9c8e1f4ea605546b1943a85, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.745
+      value: -8.37
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 930a9836c9c8e1f4ea605546b1943a85, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.872
+      value: 1.88
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 930a9836c9c8e1f4ea605546b1943a85, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6194,6 +6194,8 @@ GameObject:
   - component: {fileID: 875971903}
   - component: {fileID: 875971902}
   - component: {fileID: 875971901}
+  - component: {fileID: 875971904}
+  - component: {fileID: 875971905}
   m_Layer: 0
   m_Name: LIBRO
   m_TagString: Untagged
@@ -6255,6 +6257,34 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: -11, z: -90.255005}
+--- !u!114 &875971904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 875971900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7abe8aaf6a9b63147813ab5271fa975e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controlMenu: {fileID: 1750392156}
+  sonido: {fileID: 1207469161}
+  efecto: {fileID: 1736959177}
+  descripcion: Libro
+  destructible: 1
+--- !u!65 &875971905
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 875971900}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.09181408, y: 0.43758625, z: 0.38034368}
+  m_Center: {x: -0.0031650423, y: 0.016283045, z: -0.004971185}
 --- !u!1 &887905095
 GameObject:
   m_ObjectHideFlags: 0
@@ -6295,7 +6325,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 887905095}
   m_LocalRotation: {x: 0.40728435, y: -0, z: -0, w: 0.9133014}
-  m_LocalPosition: {x: 6.054, y: 4.119, z: -8.304}
+  m_LocalPosition: {x: 6.054, y: 4.129, z: -8.9}
   m_LocalScale: {x: 0.0025, y: 0.0025, z: 0.0025}
   m_Children:
   - {fileID: 51124743}
@@ -7246,6 +7276,38 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1077091117}
   m_Mesh: {fileID: 4300092, guid: 9eb4d689eea78e54da10689d7d578cef, type: 3}
+--- !u!1 &1102242429 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: 930a9836c9c8e1f4ea605546b1943a85, type: 3}
+  m_PrefabInternal: {fileID: 734891971}
+--- !u!114 &1102242430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1102242429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7abe8aaf6a9b63147813ab5271fa975e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controlMenu: {fileID: 1750392156}
+  sonido: {fileID: 1207469161}
+  efecto: {fileID: 1736959177}
+  descripcion: Gema
+  destructible: 1
+--- !u!65 &1102242434
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1102242429}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.01015, y: 1.5891851, z: 1.5899985}
+  m_Center: {x: 1.9593801, y: 0.00000048751383, z: 0.00000000547637}
 --- !u!1 &1144475982
 GameObject:
   m_ObjectHideFlags: 0
@@ -9711,7 +9773,7 @@ AudioListener:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1551546682}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!124 &1551546684
 Behaviour:
   m_ObjectHideFlags: 0
@@ -9953,8 +10015,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.9186629, y: 3.1455271, z: 2.2579384}
-  m_Center: {x: 0.07599431, y: 0.12364137, z: -0.6289692}
+  m_Size: {x: 1.9186629, y: 1.5027544, z: 2.2579384}
+  m_Center: {x: 0.07599431, y: -0.69774497, z: -0.6289692}
 --- !u!1 &1574829826
 GameObject:
   m_ObjectHideFlags: 0
@@ -10609,7 +10671,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &1687031131
 MeshRenderer:
   m_ObjectHideFlags: 0

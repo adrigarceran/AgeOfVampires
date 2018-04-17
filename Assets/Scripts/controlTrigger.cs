@@ -52,6 +52,8 @@ public class controlTrigger : MonoBehaviour {
 			if (Input.GetKey (KeyCode.F)) {
 				Debug.LogWarning("PULSADO F");
 				if (control.objetos == 0) {
+					textoAbrir.SetActive (false);
+					textoNoTodos.SetActive (false);
 					textoTodos.SetActive (true);
 					Time.timeScale = 0;
 					Invoke ("pantallaFinal",2f);
@@ -59,16 +61,16 @@ public class controlTrigger : MonoBehaviour {
 					textoNoTodos.SetActive (true);
 					textoAbrir.SetActive (false);
 					Invoke ("quitarTexto", 2f);
-
 				}
-				dentro = false;
+				//dentro = false;
 
 			}
 		}
 	}
 	void quitarTexto(){
 		textoNoTodos.SetActive(false);
-		textoAbrir.SetActive (true);
+		if(dentro)
+			textoAbrir.SetActive (true);
 	}
 
 	void pantallaFinal(){

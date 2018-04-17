@@ -21,21 +21,25 @@ public class interactuaObjeto : MonoBehaviour {
 	void OnMouseDown(){
 		Debug.LogWarning ("MOUSE DOWN");
 		if (control.dt == 1) {
-			control.objetos--;
-			controlMenu.GetComponent<menusNivel2> ().cambiaMensaje (mensajeObjetos ());
 			Debug.LogWarning ("name: " + name);
-			if (name == "Libro") {
+			if (name.Equals("LIBRO")) {
 				Debug.LogWarning ("HOLIS");
 				control.libro = true;
 				hazEfecto ();
+				control.objetos--;
+				controlMenu.GetComponent<menusNivel2> ().cambiaMensaje (mensajeObjetos ());
 			}
-			if (name == "Cruz") {
+			if (name.Equals("CRUZ")) {
 				control.cruz = true;
 				hazEfecto ();
+				control.objetos--;
+				controlMenu.GetComponent<menusNivel2> ().cambiaMensaje (mensajeObjetos ());
 			}
-			if (name == "Gema") {
+			if (name.Equals("GEMA")) {
 				control.gema = true;
 				hazEfecto ();
+				control.objetos--;
+				controlMenu.GetComponent<menusNivel2> ().cambiaMensaje (mensajeObjetos ());
 			}
 
 			controlMenu.GetComponent<menusNivel2> ().actualizaInventario ();
@@ -43,6 +47,7 @@ public class interactuaObjeto : MonoBehaviour {
 				Destroy (gameObject);
 			}
 		}
+		Debug.LogWarning (control.dt);
 	}
 
 	void hazEfecto(){
