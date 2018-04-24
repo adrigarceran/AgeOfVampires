@@ -50,13 +50,11 @@ public class controlTrigger : MonoBehaviour {
 	void Update () {
 		if (dentro){
 			if (Input.GetKey (KeyCode.F)) {
-				Debug.LogWarning("PULSADO F");
 				if (control.objetos == 0) {
 					textoAbrir.SetActive (false);
 					textoNoTodos.SetActive (false);
-					textoTodos.SetActive (true);
 					Time.timeScale = 0;
-					Invoke ("pantallaFinal",2f);
+					SceneManager.LoadScene ("EscenaFinal");
 				} else {
 					textoNoTodos.SetActive (true);
 					textoAbrir.SetActive (false);
@@ -73,7 +71,5 @@ public class controlTrigger : MonoBehaviour {
 			textoAbrir.SetActive (true);
 	}
 
-	void pantallaFinal(){
-		SceneManager.LoadScene ("menu");
-	}
+
 }

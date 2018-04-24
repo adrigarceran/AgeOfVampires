@@ -5,12 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/escenas/menu.unity
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: Assets/escenas/nivel2.unity
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: Assets/escenas/nivel1.unity
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/EntradaCastillo.unity
+    guid: b2ead20351915534c98b0118566cd7b6
+  - enabled: 1
+    path: Assets/Scenes/JuegoParte1.unity
+    guid: 93af59b0828606343916e40e8866028e
+  - enabled: 1
+    path: Assets/Scenes/Biblio.unity
+    guid: 8c8e2db3c91426a4692dd6bf45726589
+  - enabled: 1
+    path: Assets/Scenes/EscenaFinal.unity
+    guid: c252e0355b2aedc4ca15d59b901babb7

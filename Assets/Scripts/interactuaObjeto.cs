@@ -18,12 +18,9 @@ public class interactuaObjeto : MonoBehaviour {
 		
 	}
 
-	void OnMouseDown(){
-		Debug.LogWarning ("MOUSE DOWN");
+	public void CogerObjeto(){
 		if (control.dt == 1) {
-			Debug.LogWarning ("name: " + name);
 			if (name.Equals("LIBRO")) {
-				Debug.LogWarning ("HOLIS");
 				control.libro = true;
 				hazEfecto ();
 				control.objetos--;
