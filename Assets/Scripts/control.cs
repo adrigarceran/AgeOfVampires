@@ -10,4 +10,5 @@ static public class control {
 	public static bool gema=false;
 	public static bool efectos=true;
 	public static int objetos = 3;
+	public static bool enemigoActivo = false;
 }
