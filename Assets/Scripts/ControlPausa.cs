@@ -8,7 +8,7 @@ public class ControlPausa : MonoBehaviour {
 	bool pausaActivado = false;
 
 	void Update () {
-		if (Input.GetKeyDown (KeyCode.Escape)) 
+		if (Input.GetKeyDown (KeyCode.Escape) && !control.personajeMuerto) 
 			cambiaPausa ();
 	}
 

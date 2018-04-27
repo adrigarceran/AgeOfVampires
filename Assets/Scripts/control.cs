@@ -12,6 +12,7 @@ static public class control {
 	public static int objetos = 3;
 	public static bool enemigoActivo = false;
 	public static bool enemigoVivo = true;
+	public static bool personajeMuerto = false;
 
 	public static void defaultValues(){
 		libro=false;

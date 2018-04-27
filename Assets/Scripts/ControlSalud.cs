@@ -30,12 +30,16 @@ public class ControlSalud : MonoBehaviour {
 		} else if (salud == 0) {
 			salud1.SetActive (false);
 			muerto.SetActive (true);
+			control.personajeMuerto = true;
 			// Parar juego
 			control.dt = 1;
 			Time.timeScale = 0;
 			// Capturar espacio y reiniciar
-			if (Input.GetKeyDown (KeyCode.Escape)) 
+			if (Input.GetKeyDown (KeyCode.Space)) {
+				Time.timeScale = 1;
 				SceneManager.LoadScene ("JuegoPArte1", LoadSceneMode.Single);
+				control.defaultValues ();
+			}
 			// Poner cámara en blanco y negro?
 
 
