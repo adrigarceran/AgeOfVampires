@@ -29,7 +29,9 @@ public class ControlPausa : MonoBehaviour {
 	}
 
 	public void salir(){
+		cambiaPausa ();
 		SceneManager.LoadScene ("EntradaCastillo", LoadSceneMode.Single);
+		control.defaultValues ();
 	}
 
 	public void continuar(){

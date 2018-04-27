@@ -12,6 +12,10 @@ public class MovimientoEnemigo : MonoBehaviour {
 	bool temporizadorActivo = false;
 	[SerializeField]
 	int tiempoPerseguir;
+	[SerializeField]
+	private AudioSource hitmarker;
+	[SerializeField]
+	private GameObject canvasHitmarker;
 
 	// Use this for initialization
 	void Start () {
@@ -35,9 +39,25 @@ public class MovimientoEnemigo : MonoBehaviour {
 	}
 
 	void morirse(){
+		Invoke ("playHitmarker", 0.4f);
+		Invoke ("activaHitmarker", 0.4f);
+		Invoke ("desactivaHitmarker", 0.7f);
 		control.enemigoActivo = false;
 		anim.SetBool ("Walk", false);
 		anim.SetBool ("death", true);
 		Physics.IgnoreCollision (GetComponent<Collider> (), target.GetComponent<Collider> ());
+		control.enemigoVivo = false;
+	}
+
+	void desactivaHitmarker(){
+		canvasHitmarker.SetActive (false);
+	}
+
+	void activaHitmarker(){
+		canvasHitmarker.SetActive (true);
+	}
+
+	void playHitmarker(){
+		hitmarker.Play ();
 	}
 }
