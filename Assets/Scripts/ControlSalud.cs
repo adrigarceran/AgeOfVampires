@@ -40,13 +40,8 @@ public class ControlSalud : MonoBehaviour {
 				SceneManager.LoadScene ("JuegoPArte1", LoadSceneMode.Single);
 				control.defaultValues ();
 			}
-			// Poner cámara en blanco y negro?
-
-
-			Debug.LogWarning ("MUERTO");
+			// Poner cámara en negro totally full hd
 		}
-
-		
 	}
 
 	void OnTriggerEnter(Collider col){

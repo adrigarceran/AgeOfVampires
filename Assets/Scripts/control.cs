@@ -4,6 +4,8 @@ using UnityEngine;
 
 static public class control {
 
+
+	public static bool juegoCompletado=false;
 	public static float dt=1;
 	public static bool libro=false;
 	public static bool cruz=false;
@@ -15,6 +17,7 @@ static public class control {
 	public static bool personajeMuerto = false;
 
 	public static void defaultValues(){
+		juegoCompletado = false;
 		libro=false;
 		cruz=false;
 		gema=false;
