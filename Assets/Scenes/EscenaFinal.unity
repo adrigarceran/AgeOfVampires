@@ -190,10 +190,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac7fd9364ccc98949939dec1bbfb6c0f, type: 3}
   m_IsPrefabParent: 0
---- !u!1 &324112001 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 100010, guid: ac7fd9364ccc98949939dec1bbfb6c0f, type: 3}
-  m_PrefabInternal: {fileID: 115943127}
 --- !u!1 &473225500
 GameObject:
   m_ObjectHideFlags: 0
@@ -221,7 +217,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a728a943861a5314e9f7392d62a3ff37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gm: {fileID: 324112001}
 --- !u!4 &473225502
 Transform:
   m_ObjectHideFlags: 0
@@ -714,7 +709,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00048828, y: 112.69}
+  m_AnchoredPosition: {x: -0.00048828, y: 60}
   m_SizeDelta: {x: 800, y: 225}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1249687071
@@ -749,8 +744,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\xA1Enhorabuena!\nHas completado Age Of Vampires\n\n\xA1Ahora disfruta
-    de un buen baile!\n\n"
+  m_Text: "\xA1Enhorabuena!\nHas completado Age Of Vampires,  \xA1Ahora disfruta de
+    un buen baile!\n\n"
 --- !u!222 &1249687072
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -789,7 +784,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0004928, y: -201.88}
+  m_AnchoredPosition: {x: -0.0004928, y: -167}
   m_SizeDelta: {x: 800, y: 47}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1319129976
