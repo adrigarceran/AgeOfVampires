@@ -31,7 +31,6 @@ public class colliderObjetos : MonoBehaviour {
 	void OnTriggerStay(){
 		if (!cogido) {
 			if (Input.GetKeyDown (KeyCode.E)) {
-				Debug.Log ("PULSA E");
 				obj.GetComponent<interactuaObjeto> ().CogerObjeto ();
 				texto.gameObject.SetActive (false);
 				cogido = true;

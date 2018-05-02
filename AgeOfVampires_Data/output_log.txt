@@ -1,0 +1,56 @@
+Initialize engine version: 5.6.3f1 (d3101c3b8468)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Vendor:   NVIDIA
+    VRAM:     1979 MB
+    Driver:   24.21.13.9731
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Adrian\Documents\Curso-2017-2018\AOV\AgeOfVampires\AgeOfVampires_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Adrian\Documents\Curso-2017-2018\AOV\AgeOfVampires\AgeOfVampires_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Adrian\Documents\Curso-2017-2018\AOV\AgeOfVampires\AgeOfVampires_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Adrian\Documents\Curso-2017-2018\AOV\AgeOfVampires\AgeOfVampires_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Adrian\Documents\Curso-2017-2018\AOV\AgeOfVampires\AgeOfVampires_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Adrian\Documents\Curso-2017-2018\AOV\AgeOfVampires\AgeOfVampires_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Adrian\Documents\Curso-2017-2018\AOV\AgeOfVampires\AgeOfVampires_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Adrian\Documents\Curso-2017-2018\AOV\AgeOfVampires\AgeOfVampires_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Adrian\Documents\Curso-2017-2018\AOV\AgeOfVampires\AgeOfVampires_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Adrian\Documents\Curso-2017-2018\AOV\AgeOfVampires\AgeOfVampires_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.172 seconds
+Platform assembly: C:\Users\Adrian\Documents\Curso-2017-2018\AOV\AgeOfVampires\AgeOfVampires_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Adrian\Documents\Curso-2017-2018\AOV\AgeOfVampires\AgeOfVampires_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 3.623019 ms
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 1984 -> priority: 1 
+  Thread -> id: 27f0 -> priority: 1 
+  Thread -> id: 29f0 -> priority: 1 
+  Thread -> id: 2aac -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 7.556739 ms
+
+Unloading 57 unused Assets to reduce memory usage. Loaded Objects now: 1529.
+Total: 4.050415 ms (FindLiveObjects: 0.106484 ms CreateObjectMapping: 0.055794 ms MarkObjects: 0.762894 ms  DeleteObjects: 3.123782 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.163167 ms
+
+Unloading 122 unused Assets to reduce memory usage. Loaded Objects now: 1626.
+Total: 7.946209 ms (FindLiveObjects: 0.135658 ms CreateObjectMapping: 0.098096 ms MarkObjects: 0.754142 ms  DeleteObjects: 6.956853 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.803669 ms
+
+Unloading 221 unused Assets to reduce memory usage. Loaded Objects now: 646.
+Total: 11.185958 ms (FindLiveObjects: 0.056888 ms CreateObjectMapping: 0.050689 ms MarkObjects: 0.261834 ms  DeleteObjects: 10.816180 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.168774 ms
+
+Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 1085.
+Total: 17.533808 ms (FindLiveObjects: 0.093720 ms CreateObjectMapping: 0.118518 ms MarkObjects: 1.012330 ms  DeleteObjects: 16.308508 ms)
+

@@ -9,7 +9,7 @@ using UnityEngine.SceneManagement;
 public class ControlMinijuego : MonoBehaviour {
 
 	[SerializeField]
-	private Button b1,b2,b3,b4;
+	private Button b1,b2,b3,b4 = null;
 
 	private bool b1p, b2p, b3p, b4p;
 

@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class interactuaObjeto : MonoBehaviour {
-	public GameObject controlMenu, sonido, efecto;
+	public GameObject controlMenu, efecto;
+	public AudioSource sonido;
 	public string descripcion;
 	public bool destructible=false;
 	// Use this for initialization
@@ -44,13 +45,11 @@ public class interactuaObjeto : MonoBehaviour {
 				Destroy (gameObject);
 			}
 		}
-		Debug.LogWarning (control.dt);
 	}
 
 	void hazEfecto(){
 		if (control.efectos) {
-			GameObject miSonido = Instantiate (sonido);
-			miSonido.transform.position = transform.position;
+			sonido.PlayOneShot (sonido.clip);
 		}
 		GameObject miEfecto = Instantiate (efecto);
 		miEfecto.transform.position = transform.position;

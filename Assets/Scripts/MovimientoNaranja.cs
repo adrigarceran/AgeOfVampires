@@ -16,7 +16,6 @@ public class MovimientoNaranja : MonoBehaviour {
 	private bool jump2= false;
 	private Rigidbody rb;
 	public bool grounded=true;
-	private int m_VelSalto = 180;
 
 
 	// Use this for initialization

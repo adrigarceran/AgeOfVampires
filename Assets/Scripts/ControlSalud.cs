@@ -49,7 +49,6 @@ public class ControlSalud : MonoBehaviour {
 			lastHit = Time.time;
 			damage.Play ();
 			salud -= 1;
-			Debug.LogWarning(salud);
 		}
 	}
 
@@ -58,7 +57,6 @@ public class ControlSalud : MonoBehaviour {
 			lastHit = Time.time;
 			damage.Play ();
 			salud -= 1;
-			Debug.LogWarning(salud);
 		}
 	}
 }

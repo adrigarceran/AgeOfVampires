@@ -16,7 +16,7 @@ public class ControlMensajes : MonoBehaviour {
 		personaje.GetComponent<Animator> ().enabled = false;
 		personaje.GetComponent<SmoothMouseLook> ().sensitivityX = 0;
 		MensajeInicio.SetActive (true);
-		Invoke ("QuitarMsgInicio", 3f);
+		Invoke ("QuitarMsgInicio", 5f);
 		
 	}
 	

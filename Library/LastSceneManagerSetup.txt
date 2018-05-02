@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/EntradaCastillo.unity
+- path: Assets/Scenes/JuegoPArte1.unity
   isLoaded: 1
   isActive: 1
