@@ -12,7 +12,7 @@ public class ControlMensajes : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		personaje.GetComponent<MovimientoNaranja> ().enabled = false;
+		personaje.GetComponent<MovimientoPersonaje> ().enabled = false;
 		personaje.GetComponent<Animator> ().enabled = false;
 		personaje.GetComponent<SmoothMouseLook> ().sensitivityX = 0;
 		MensajeInicio.SetActive (true);
@@ -28,7 +28,7 @@ public class ControlMensajes : MonoBehaviour {
 	public void QuitarMsgInicio(){
 
 		personaje.GetComponent<Animator> ().enabled = true;
-		personaje.GetComponent<MovimientoNaranja> ().enabled = true;
+		personaje.GetComponent<MovimientoPersonaje> ().enabled = true;
 		personaje.GetComponent<SmoothMouseLook> ().sensitivityX = 1;
 		MensajeInicio.SetActive (false);
 	}

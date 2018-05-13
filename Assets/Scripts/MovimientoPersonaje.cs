@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MovimientoNaranja : MonoBehaviour {
+public class MovimientoPersonaje : MonoBehaviour {
 	static Animator anim;
 	[SerializeField]
 	private float vel;

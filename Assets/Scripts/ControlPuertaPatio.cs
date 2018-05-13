@@ -61,7 +61,7 @@ public class ControlPuertaPatio : MonoBehaviour {
 				if (!control.enemigoVivo) {
 					textoAbrir.SetActive (false);
 					textoMecanismo.SetActive (true);
-					personaje.GetComponent<MovimientoNaranja> ().enabled = false;
+					personaje.GetComponent<MovimientoPersonaje> ().enabled = false;
 					personaje.GetComponent<Animator> ().enabled = false;
 					personaje.GetComponent<SmoothMouseLook> ().sensitivityX = 0;
 					pulsado = true;

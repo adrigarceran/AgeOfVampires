@@ -20,24 +20,24 @@ public class ControlPausa : MonoBehaviour {
 
 		if (control.dt == 0) {
 			personaje.GetComponent<Animator> ().enabled = true;
-			personaje.GetComponent<MovimientoNaranja> ().enabled = true;
+			personaje.GetComponent<MovimientoPersonaje> ().enabled = true;
 			personaje.GetComponent<SmoothMouseLook> ().sensitivityX = 1;
 			control.dt = 1;
 		} else {
-			personaje.GetComponent<MovimientoNaranja> ().enabled = false;
+			personaje.GetComponent<MovimientoPersonaje> ().enabled = false;
 			personaje.GetComponent<Animator> ().enabled = false;
 			personaje.GetComponent<SmoothMouseLook> ().sensitivityX = 0;
 			control.dt = 0;
 		}
 		
 		if (Time.timeScale == 1) {
-			personaje.GetComponent<MovimientoNaranja> ().enabled = false;
+			personaje.GetComponent<MovimientoPersonaje> ().enabled = false;
 			personaje.GetComponent<Animator> ().enabled = false;
 			personaje.GetComponent<SmoothMouseLook> ().sensitivityX = 0;
 			Time.timeScale = 0;
 		} else {
 			personaje.GetComponent<Animator> ().enabled = true;
-			personaje.GetComponent<MovimientoNaranja> ().enabled = true;
+			personaje.GetComponent<MovimientoPersonaje> ().enabled = true;
 			personaje.GetComponent<SmoothMouseLook> ().sensitivityX = 1;
 			Time.timeScale = 1;
 		}

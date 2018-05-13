@@ -151,7 +151,7 @@ public class ControlMinijuego : MonoBehaviour {
 		b3p = false;
 		b4p = false;
 		personaje.GetComponent<Animator> ().enabled = true;
-		personaje.GetComponent<MovimientoNaranja> ().enabled = true;
+		personaje.GetComponent<MovimientoPersonaje> ().enabled = true;
 		personaje.GetComponent<SmoothMouseLook> ().sensitivityX = 1;
 	}
 		

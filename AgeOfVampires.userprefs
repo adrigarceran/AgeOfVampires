@@ -1,11 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\interactuaObjeto.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ControlPuertaPatio.cs">
     <Files>
-      <File FileName="Assets\Scripts\ControlMensajes.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\interactuaObjeto.cs" Line="31" Column="25" />
-      <File FileName="Assets\Scripts\ControlPuertaPatio.cs" Line="13" Column="58" />
-      <File FileName="Assets\Scripts\ControlMinijuego.cs" Line="20" Column="1" />
+      <File FileName="Assets\Scripts\ControlMensajes.cs" Line="31" Column="45" />
+      <File FileName="Assets\Scripts\interactuaObjeto.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ControlPuertaPatio.cs" Line="64" Column="48" />
+      <File FileName="Assets\Scripts\ControlMinijuego.cs" Line="154" Column="45" />
+      <File FileName="Assets\Scripts\MovimientoPersonaje.cs" Line="14" Column="27" />
+      <File FileName="Assets\Scripts\ControlPausa.cs" Line="49" Column="68" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

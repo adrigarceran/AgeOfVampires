@@ -57,7 +57,7 @@
      <Compile Include="Assets\Scripts\HoldCharacter.cs" />
      <Compile Include="Assets\Scripts\Mov2.cs" />
      <Compile Include="Assets\Scripts\MovimientoEnemigo.cs" />
-     <Compile Include="Assets\Scripts\MovimientoNaranja.cs" />
+     <Compile Include="Assets\Scripts\MovimientoPersonaje.cs" />
      <Compile Include="Assets\Scripts\SmoothMouseLook.cs" />
      <Compile Include="Assets\Scripts\TextoParpadeante.cs" />
      <Compile Include="Assets\Scripts\TriggerEnemigo.cs" />
@@ -70,7 +70,6 @@
      <Compile Include="Assets\Scripts\interactuaObjeto.cs" />
      <Compile Include="Assets\Scripts\menusNivel2.cs" />
      <Compile Include="Assets\Scripts\mueveBasico.cs" />
-     <Compile Include="Assets\Scripts\steeringBasico.cs" />
      <Compile Include="Assets\Textures\Lava_Flowing_Shader\Scripts\ScrollingUVs_Layers.cs" />
      <None Include="Assets\Textures\Lava_Flowing_Shader\Shaders\Unlit_Lava_Simple.shader" />
      <None Include="Assets\Textures\Lava_Flowing_Shader\Shaders\Diffuse_Lava_Distort.shader" />
